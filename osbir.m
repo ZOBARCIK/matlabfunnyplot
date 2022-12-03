@@ -7,7 +7,7 @@ y = @(x) abs(sin(x)) + 5.*exp(-x.^100).*cos(x);
 t = @(x) +7 -( +sqrt(1 - (x+3/2)^2 / (1+(x+3/2)^10)^(1/5)) + sqrt(1 - (10*x+15)^2 / (1+(10*x+15)^10)^(1/5)) / 10 + sqrt(1 - (x-3/2)^2 / (1+(x-3/2)^10)^(1/5)) + sqrt(1 - (10*x-15)^2 / (1+(10*x-15)^10)^(1/5)) / 10);
 x=-3:0.01:3;
 % y = abs(sin(x)) + 5.*exp(-x.^100).*cos(x);
-a=input('Enter a number brotha :d \n');
+a=input('Enter a funny number brotha :d \n');
 
 if a==31
      for i=-3:0.01:3
